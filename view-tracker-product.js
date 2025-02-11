@@ -1,7 +1,7 @@
 // Function to track product views
 function trackProductView(productId) {
   // Replace with your Gadget app's backend endpoint
-  const GADGET_BACKEND_URL = "https://your-gadget-app.gadget.app/api/trackProductView";
+  const GADGET_BACKEND_URL = "https://product-optimiser.gadget.app/api/trackProductView";
 
   // Send the product ID to your Gadget backend
   fetch(GADGET_BACKEND_URL, {
